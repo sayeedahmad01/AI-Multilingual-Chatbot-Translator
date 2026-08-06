@@ -1,0 +1,84 @@
+# ==============================
+# AI Multilingual Translator Chatbot
+# Requirements
+# ==============================
+
+# Streamlit
+streamlit
+streamlit-chat
+streamlit-option-menu
+streamlit-extras
+streamlit-lottie
+
+# Data Processing
+numpy
+pandas
+
+# Image Processing
+Pillow
+opencv-python
+
+# OCR
+pytesseract
+easyocr
+
+# Translation
+deep-translator
+googletrans==4.0.0rc1
+langdetect
+
+# Speech-to-Text
+SpeechRecognition
+sounddevice
+soundfile
+pyaudio
+
+# Text-to-Speech
+gTTS
+pyttsx3
+
+# Audio Processing
+pydub
+librosa
+
+# AI Models
+google-genai
+openai
+
+# Document Processing
+python-docx
+PyPDF2
+pdfplumber
+openpyxl
+
+# Utilities
+requests
+python-dotenv
+filetype
+tqdm
+rich
+colorama
+
+# Database
+SQLAlchemy
+
+# Machine Learning (Optional)
+scikit-learn
+joblib
+
+# Visualization
+matplotlib
+seaborn
+
+# Web Framework (Optional)
+fastapi
+uvicorn
+
+# HTTP
+httpx
+
+# JSON & Config
+PyYAML
+
+# Miscellaneous
+typing_extensions

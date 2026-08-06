@@ -1,0 +1,68 @@
+/* ===========================
+   AI Multilingual Translator
+=========================== */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main {
+    background-color: #F7F9FC;
+}
+
+h1 {
+    color: #0E76FD;
+    text-align: center;
+    font-weight: bold;
+}
+
+h2 {
+    color: #1E3A8A;
+}
+
+h3 {
+    color: #374151;
+}
+
+.stButton>button {
+    width: 100%;
+    background-color: #0E76FD;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.stButton>button:hover {
+    background-color: #084298;
+}
+
+.stTextInput input {
+    border-radius: 8px;
+}
+
+.stTextArea textarea {
+    border-radius: 8px;
+}
+
+.stSelectbox {
+    border-radius: 8px;
+}
+
+.stDownloadButton>button {
+    background-color: #198754;
+    color: white;
+}
+
+.stDownloadButton>button:hover {
+    background-color: #146C43;
+}
+
+footer {
+    visibility: hidden;
+}
+
+header {
+    visibility: hidden;
+}

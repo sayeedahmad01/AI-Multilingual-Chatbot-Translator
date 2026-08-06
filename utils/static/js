@@ -1,0 +1,9 @@
+js_code = """
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    console.log('Custom JS loaded');
+    // Your JS code here
+});
+</script>
+"""
+st.components.v1.html(js_code, height=0)

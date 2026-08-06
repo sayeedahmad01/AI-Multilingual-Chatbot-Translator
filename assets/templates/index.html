@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>AI Multilingual Translator</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body>
+
+    <header>
+
+        <h1>🌍 AI Multilingual Translator</h1>
+
+        <p>
+            Translate Text • Voice • Images • Documents
+        </p>
+
+    </header>
+
+    <div class="container">
+
+        <form method="POST">
+
+            <label>Source Language</label>
+
+            <select name="source">
+
+                <option value="auto">Auto Detect</option>
+                <option value="en">English</option>
+                <option value="hi">Hindi</option>
+                <option value="fr">French</option>
+                <option value="de">German</option>
+                <option value="es">Spanish</option>
+
+            </select>
+
+            <br><br>
+
+            <label>Target Language</label>
+
+            <select name="target">
+
+                <option value="en">English</option>
+                <option value="hi">Hindi</option>
+                <option value="fr">French</option>
+                <option value="de">German</option>
+                <option value="es">Spanish</option>
+
+            </select>
+
+            <br><br>
+
+            <label>Enter Text</label>
+
+            <textarea
+                name="text"
+                rows="8"
+                placeholder="Type your text here..."
+            ></textarea>
+
+            <br><br>
+
+            <button type="submit">
+                Translate
+            </button>
+
+        </form>
+
+        {% if translated_text %}
+
+        <div class="result">
+
+            <h2>Translated Text</h2>
+
+            <textarea rows="8">{{ translated_text }}</textarea>
+
+        </div>
+
+        {% endif %}
+
+    </div>
+
+    <footer>
+
+        <p>
+
+            © 2026 AI Multilingual Translator
+
+        </p>
+
+    </footer>
+
+</body>
+
+</html>
